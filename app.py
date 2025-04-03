@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 # LINEのアクセストークン（Messaging APIから取得）
-LINE_ACCESS_TOKEN = "YOUR_LINE_ACCESS_TOKEN"
+LINE_ACCESS_TOKEN = "KFDPQj7iskWtUWVeVk26iFDW8oNglpYwvUYSHGDRYh6V9tr8SoN6OByltHDL0t0gNwfup2w1YcdeJgctY6AYclRZNv/GGB1Cbvw+BPmzklOZolQgb52fZ5jqGMml0CM/7ajY1lecVVvaaGvvTfHM9gdB04t89/1O/w1cDnyilFU="
 
 def send_welcome_message(group_id, user_name):
     url = "https://api.line.me/v2/bot/message/push"
